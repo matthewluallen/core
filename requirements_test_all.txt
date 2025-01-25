@@ -103,7 +103,7 @@ PyXiaomiGateway==0.14.3
 RachioPy==1.1.0
 
 # homeassistant.components.python_script
-RestrictedPython==7.0
+RestrictedPython==8.0
 
 # homeassistant.components.remember_the_milk
 RtmAPI==0.7.2
@@ -1129,7 +1129,7 @@ mill-local==0.3.0
 millheater==0.11.8
 
 # homeassistant.components.minio
-minio==7.1.12
+minio==7.2.11
 
 # homeassistant.components.moat
 moat-ble==0.1.1
@@ -2411,3 +2411,5 @@ zwave-js-server-python==0.57.0
 
 # homeassistant.components.zwave_me
 zwave-me-ws==0.4.3
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
