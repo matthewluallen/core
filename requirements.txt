@@ -42,3 +42,4 @@ voluptuous==0.15.2
 voluptuous-serialize==2.6.0
 voluptuous-openapi==0.0.5
 yarl==1.9.9
+pycares>=4.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
