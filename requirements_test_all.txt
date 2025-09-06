@@ -2365,7 +2365,7 @@ xknxproject==3.7.1
 # homeassistant.components.startca
 # homeassistant.components.ted5000
 # homeassistant.components.zestimate
-xmltodict==0.13.0
+xmltodict==0.15.0
 
 # homeassistant.components.yale_smart_alarm
 yalesmartalarmclient==0.4.0
